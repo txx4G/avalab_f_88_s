@@ -100,11 +100,11 @@ selected_question = None  # Для хранения выбранного воп�
 
 
 
-# "Qwen/Qwen2.5-1.5B-Instruct"
-model_name = "models/qa_model"
-qa_pipeline = pipeline("text-generation", model=model_name)
+'''# "Qwen/Qwen2.5-1.5B-Instruct"
+#model_name = "models/qa_model"
+#qa_pipeline = pipeline("text-generation", model=model_name)
 sentence_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
-
+'''
 # Логирование
 logging.basicConfig(filename="errors.log", level=logging.ERROR)
 
@@ -207,7 +207,7 @@ def process_voice_message(voice_file):
         return None
 
 # Обработка вопросов
-def process_question(chat_id, question):
+'''def process_question(chat_id, question):
     try:
         msg = bot.send_message(chat_id, "Ищу ответ, подождите...")
         answer = qa_pipeline(question)[0]["generated_text"]
@@ -221,7 +221,7 @@ def process_question(chat_id, question):
     except Exception as e:
         logging.error(f"Ошибка обработки вопроса: {e}")
         bot.send_message(chat_id, "Произошла ошибка при обработке вопроса.")
-        show_main_menu(chat_id)
+        show_main_menu(chat_id)'''
 
 # Обработка рейтинга ответа
 def handle_rating(message, question, answer):
@@ -322,7 +322,7 @@ def handle_message(message):
 
         elif message.text == "🤖 Бизнес чат-бот":
             
-            bot.send_message(message.chat.id, "Привет, я Джессика (если устали со со мной общаться нажмите -Назад-) Так же я понимаю голос:")
+            bot.send_message(message.chat.id, "Привет, я Бизнес Чат-Бот (если устали со мной общаться нажмите -Назад-):")
             markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
             markup.add("Назад")
             bot.send_message(message.chat.id, "Напишите свой вопрос:", reply_markup=markup)
@@ -501,7 +501,6 @@ def handle_message(message):
             prompt_dict["region"] = "Россия"
         else:
             prompt_dict["region"] = message.text
-
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         markup.add("Пропустить")
         markup.add("Назад")
@@ -515,7 +514,7 @@ def handle_message(message):
             prompt_dict["sphere"] = message.text
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         markup.add("Назад")
-        bot.send_message(message.chat.id, f"{ get_user_dialog(prompt_dict, str(prompt_dict), "no sense")}", reply_markup=markup)
+        bot.send_message(message.chat.id, f"{ get_user_dialog(prompt_dict, str(prompt_dict), 'no sense')}", reply_markup=markup)
         save_businessman_data(message.chat.id, prompt_dict)
         bot.send_message(message.chat.id, "👥 Спасибо, мы будем учитывать эту информацию при поиске Ваших запросов.", reply_markup=markup)
 
@@ -620,7 +619,7 @@ def handle_uploaded_document(message):
         bot.send_message(message.chat.id, "Загрузка файлов доступна только администратору.")
 
 # Обработка нового вопроса (текст или голос)
-@bot.message_handler(content_types=["voice"])
+'''@bot.message_handler(content_types=["voice"])
 def handle_new_question(message):
         voice_file = bot.download_file(bot.get_file(message.voice.file_id).file_path)
         question = process_voice_message(voice_file)
@@ -629,7 +628,7 @@ def handle_new_question(message):
         else:
             bot.send_message(message.chat.id, "Не удалось распознать голосовое сообщение. Попробуйте снова.")
             show_main_menu(message.chat.id)
-
+'''
 
 # Функция для запуска бота с обработкой ошибок
 def start_bot():
