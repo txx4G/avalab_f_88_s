@@ -20,7 +20,7 @@ venv\Scripts\activate
 ```
 * Активируем (для Linux):
 ```
-venv\Scripts\activate
+source venv\bin\activate
 ```
 3. Установим зависимости из файла requirements.txt:
 ```
