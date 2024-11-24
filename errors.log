@@ -1,0 +1,580 @@
+ERROR:root:Ошибка при сохранении оценки: no such table: Ratings
+ERROR:root:Ошибка обработки голосового сообщения: Given audio file must be a filename string or a file-like object
+ERROR:root:Ошибка обработки голосового сообщения: Given audio file must be a filename string or a file-like object
+ERROR:root:Ошибка при сохранении оценки: no such table: Ratings
+ERROR:root:Ошибка при сохранении оценки: no such table: Ratings
+ERROR:root:Ошибка обработки голосового сообщения: Given audio file must be a filename string or a file-like object
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 63, in send_help
+    bot.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 80, in send_help
+    bot.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 80, in send_help
+    bot.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+
+ERROR:root:Ошибка при сохранении оценки: no such table: Ratings
+ERROR:root:Ошибка обработки голосового сообщения: Given audio file must be a filename string or a file-like object
+ERROR:root:Ошибка при сохранении оценки: no such table: Ratings
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 331, in handle_message
+    bot.send_message(message.chat.id, text=None, reply_markup=markup)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:root:Ошибка при сохранении оценки: no such table: Ratings
+ERROR:root:Ошибка при сохранении оценки: no such table: Ratings
+ERROR:root:Ошибка обработки голосового сообщения: Given audio file must be a filename string or a file-like object
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 601, in handle_message
+    bot.send_message(message.chat.id, admin_panel("all"), reply_markup=markup)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 601, in handle_message
+    bot.send_message(message.chat.id, admin_panel("all"), reply_markup=markup)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 601, in handle_message
+    bot.send_message(message.chat.id, str(admin_panel("all")), reply_markup=markup)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:root:Ошибка при сохранении оценки: no such table: Ratings
+ERROR:root:Ошибка получения частых вопросов: name 'show_top_5' is not defined
+ERROR:root:Ошибка обработки вопроса: name 'message' is not defined
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 420, in handle_message
+    bot.send_message(message.chat.id, "")
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 420, in handle_message
+    bot.send_message(message.chat.id, "")
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 420, in handle_message
+    bot.send_message(message.chat.id, "")
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 420, in handle_message
+    bot.send_message(message.chat.id, "")
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 420, in handle_message
+    bot.send_message(message.chat.id, "")
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 9040, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\app_test2.py", line 420, in handle_message
+    bot.send_message(message.chat.id, "")
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1780, in send_message
+    apihelper.send_message(
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+ERROR:root:Ошибка получения частых вопросов: name 'show_top_5' is not defined
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+ERROR:TeleBot:Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+ERROR:TeleBot:Exception traceback:
+Traceback (most recent call last):
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\vv924\OneDrive\Рабочий стол\ava_feat\venv\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
