@@ -45,7 +45,8 @@ python app.py
 
 ## Структура
 ```
-ava_feat 
+ava_feat
+├── venv
 ├── qa_database.db
 ├── businessman.db
 ├── app.py
