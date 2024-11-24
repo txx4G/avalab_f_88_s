@@ -52,6 +52,7 @@ ava_feat
 ├── errors.log
 ├── model_chat_bot.py
 ├── requirements.txt
+├── Анализ_технического_решения.ipynb
 └── README.md
 ```
 
