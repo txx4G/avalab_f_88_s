@@ -40,7 +40,7 @@ python app.py
 2. Общение с Чат-ботом по бизнес тематике.
 3. Поиск организаций, которые могу Вам помочь.
 
-![alt text](https://github.com/txx4G/tryHuggModel/blob/main/qrcode.png "Быстрый старт")
+![alt text](https://github.com/txx4G/avalab_f_88_s/blob/main/qr.png "Быстрый старт")
 
 ## Структура
 ```
